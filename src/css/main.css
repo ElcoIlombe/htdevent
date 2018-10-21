@@ -1,0 +1,197 @@
+/*
+  You can use import statements to include partials:
+ */
+@import "imports/reset.css";
+
+/* Typography */
+body p, body h1,body h2,body h3,body h4,body h5,body h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body, html{
+  overflow-x: hidden;
+}
+.title {
+  color: white;
+  font-size: 8vh;
+  font-weight: bold;
+}
+h2{
+  text-align: center;
+  font-weight: bold;
+}
+/* Display */
+.space {
+  padding: 35px 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  z-index: -999;
+}
+.space-mid {
+  padding: 17.5px 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  z-index: -999;
+}
+.full-height {
+  min-height: 100%;
+}
+
+.viewport-height{
+    height: 100vh!important;
+    min-height: 100%;
+}
+.viewport-third-height{
+    height: 70vh!important;
+}
+.viewport-mid-height{
+    height: 50vh!important;
+}
+
+/* HERO */
+#heroMain {
+  background: url("https://res.cloudinary.com/elcoilombe/image/upload/v1539807129/High%20TDev/HTD%20%7C%20EVENt/erik-witsoe-618924-unsplash.jpg") no-repeat;
+  background-size: cover;
+}
+#heroMain .text-main {
+  background: rgba(208, 0, 0, 0.70);
+  padding: 20px;
+}
+
+/* ABOUT */
+
+#about hr
+{
+  border: 2px solid #D00000;
+  width: 50px;
+}
+
+/* SERVICES */
+
+#services {
+  background: #D00000;
+}
+#services .service {
+  padding: 35px 10px;
+  color: white;
+}
+#services .service1 {
+  border-right: 1px solid white;
+}
+
+/* TESTIMONIALS*/
+
+#testimonial {
+  background: url("https://res.cloudinary.com/elcoilombe/image/upload/v1539808331/High%20TDev/HTD%20%7C%20EVENt/jakob-dalbjorn-730178-unsplash.jpg") no-repeat;
+  background-size: cover;
+  padding: 75px 0;
+}
+#testimonial hr{
+  border: 2px solid #D00000;
+  width: 50px;
+}
+
+#testimonial h2 {
+  width: 50%;
+  color: white;
+  padding: 15px 0;
+  border: 5px double white;
+  font-size: 2.5em;
+  background: rgba(0,0,0,0.5);
+}
+#testimonial p {
+  color: grey;
+  border-left: 2px solid lightgrey;
+  padding-left: 10px;
+}
+
+#testimonial small {
+  color: rgba(208, 0, 0, 1);
+}
+
+/* REFERENCES */
+
+#reference hr {
+  border: 2px solid #D00000;
+  width: 50px;
+}
+
+/* Contact */
+#contact {
+  background: #282727;
+}
+#contact .form {
+  background: #363636;
+  padding: 20px;
+  color: #D00000;
+}
+.form .form-group input, .form .form-group textarea {
+  background: rgba(0,0,0,0);
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#contact .form-info {
+  padding-top: 20px;
+  background: lightgrey;
+}
+
+#contact .form-info ul{
+  padding-top: 15px;
+  list-style: none;
+}
+#contact .form-info ul h3{
+
+  list-style: none;
+}
+.contact-info-title{
+  padding-bottom: 15px;
+}
+#contact .fa {
+  font-size: 25px;
+  padding: 0 5px;
+  color: black;
+}
+
+/* FOOTER */
+footer p {
+  margin-bottom: 0;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 767px)
+{
+ .viewport-height{
+    height: 100%!important;
+}
+#testimonial h2{
+  width: initial;
+  padding: 15px;
+}
+}
+
+@media screen and (max-width: 983px)
+{
+  .viewport-height{
+    height: 100%!important;
+}
+
+}
+
+@media screen and (max-width: 1025px)
+{
+  .viewport-height{
+    height: 100%!important;
+}
+
+}
+@media screen and (max-width: 1367px)
+{
+  .viewport-height{
+    height: 100%!important;
+}
+
+}
